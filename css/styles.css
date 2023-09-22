@@ -1,0 +1,182 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 500;
+    padding: 0;
+}
+
+header {
+    background-color: #242a25;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 4em;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border: 2px solid #015c23; /* Borde de 2 píxeles de ancho y color negro (#000) */;
+    
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Establece un ancho máximo para la columna de descripción */
+table td:nth-child(3) {
+    max-width: 300px; /* Ajusta el ancho máximo según tu preferencia */
+    word-wrap: break-word; /* Rompe palabras largas si es necesario */
+}
+
+/* Agrega estilos para los enlaces */
+table a {
+    text-decoration: none;
+    color: blue;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Agrega una clase para las imágenes de las páginas web */
+
+.web-image {
+    max-width: 400px; /* Ajusta el tamaño de la imagen según tu preferencia */
+    display: block; /* Cambia la visualización a bloque para centrar horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #004b0b;
+    padding: 18px;
+    text-align: right;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #e60606;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer{
+    background-color: #242a25;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+
+}
+
+.enlace {
+    color: #027417; /* Cambia #FF00FF al código de color que desees */
+}
+
+
+.two-column-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente la sección en la página */
+    max-width: 900px; /* Ajusta el ancho máximo de la sección según tu preferencia */
+    margin: 0 auto; /* Centra la sección horizontalmente en la página */
+}
+
+.two-column-section img {
+    max-width: 36%; /* Ajusta el ancho de la imagen al tamaño de la sección */
+    margin-right: 50px; /* Espacio entre la imagen y el texto */
+}
+
+.text-content {
+    flex-grow: 1;
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+.text-content h2 {
+    margin-bottom: 12px; /* Aumentar el espacio entre el h2 y el párrafo */
+}
+
+.zoom-image {
+    max-width: 100%;
+    transition: transform 0.3s ease; /* Agrega una transición de 0.3 segundos al efecto de zoom */
+}
+
+.zoom-image:hover {
+    transform: scale(1.1); /* Aplica un efecto de zoom-in del 10% cuando el cursor está sobre la imagen */
+}
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas */
+}
+
+@media (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+}
