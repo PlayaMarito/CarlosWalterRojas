@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Carlos Rojas - Programador Web">
+    <title>Portafolio de Programador Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Portafolio Carlos W Rojas (v. 0.1)</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="inicio" class="two-column-section">
+        <img src="images/carlos-rojas.png" class="zoom-image" alt="Carlos W Rojas - Programador de Software">
+        
+        <div class="text-content">
+            <h2>Bienvenido al borrador de mi Portafolio</h2>
+            <p>Soy un estudiante de programación de software en <strong>ParqueSoftt TI</strong>, apasionado por la creación de sitios web minimalistas y funcionales. 
+            <br><br>Este es mi primer sitio programado desde cero, como parte de la clase de <strong>Programación HTML</strong>.</p>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Actuales</h2>
+        <table>
+            <tr>
+                <th>Proyecto</th>
+                <th></th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>1000 Aromas Café</td>
+                <td>
+                    <img class="web-image" src="images/amistad.png" alt="Captura de la página web 1000 Aromas Café"></td>
+                <td>
+                    <p>Página web para presentar Café Amistad - 친교 커피.</p>
+                    <a href="https://1000aromascafe.com/" target="_blank" class="enlace">https://1000aromascafe.com/
+                    
+                    </a>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>Café Fitness</td>
+                <td>
+                    <img class="web-image" src="images/fitness.png" alt="Captura de la página web Café Fitness"> </td>
+                <td>
+                    <p>Página web para posicionar la marca de Café Fitness.</p> <a href="https://fitness.1000aromascafe.com/" target="_blank" class="enlace"> https://fitness.1000aromascafe.com/ </a>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Carlos W Rojas - Programador Web</p>
+    </footer>
+</body>
+</html>
